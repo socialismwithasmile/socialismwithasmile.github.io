@@ -1,6 +1,15 @@
-body {
+p {
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
   font-family: 'Merriweather', serif;
 }
-blockquote p {
-  font-family: 'Oswald', sans-serif;
+h2 {
+  font-family: 'Merriweather', serif;
+}
+h3 {
+  font-family: 'Merriweather', serif;
+}
+h4 {
+  font-family: 'Merriweather', serif;
 }
