@@ -9,8 +9,7 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
-  content: open-quote;
+  color: #d3d4d9;
   font-size: 4em;
   line-height: 0.1em;
   margin-right: 0.25em;
