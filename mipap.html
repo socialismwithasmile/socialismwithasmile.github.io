@@ -13,7 +13,7 @@
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="customstylesheet.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#e1-contents" data-offset="5">
     <div class="container-fluid">
       <div class="row mh-100 pt-5 pb-5 fill" style="background:transparent url('https://upload.wikimedia.org/wikipedia/commons/6/6d/Harpers_8_11_1877_Steeple_View_of_Pittsburgh_Conflagaration_%28cropped%29.jpg') no-repeat center center /cover">>
         <div class="col-12">
@@ -24,7 +24,11 @@
             <h2 class="text-center mipap display-4">An essay by J.R. Markin</h2>
             <br />
             <br />
-            <br />
+            <div class="text-center">
+              <a href="essays.html"
+              <button type="button" class="mx-auto btn btn-primary">Return to Library</button>
+              </a>
+            </div>
             <br />
             <br />
         </div>
@@ -33,27 +37,33 @@
         <div class="col-4">
           <br />
           <br />
-          <ul class="nav flex-column nav-pills sticky-top">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
+          <div class="container-fluid sticky-top">
+            <nav id="e1-contents" class="navbar navbar-light bg-light essay_sidebar">
+              <a class="navbar-brand mx-auto" href="#">Table of Contents</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link" href="#e1-intro">Introduction</a>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ml-3 my-1" href="#e1-intro-1">Towards a Marxist Hermeneutic</a>
+                  <a class="nav-link ml-3 my-1" href="#e1-intro-2">The Distinction Between Principle & Practice</a>
+                </nav>
+              </nav>
+            </nav>
+            <br />
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb essay_sidebar">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="essays.html">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Current Essay</li>
+              </ol>
+            </nav>
+          </div>
         </div>
         <div class="col-8">
           <div class="row">
             <div class="col-12">
               <br />
-              <h2 class="text-center">Introduction:</h2>
-              <h3 class="text-center">Towards a Marxist Hermeneutic</h3>
+              <h2 class="text-center" id = "e1-intro">Introduction:</h2>
+              <h3 class="text-center" id = "e1-intro-1">Towards a Marxist Hermeneutic</h3>
               <p class="text-left">
               Before I begin, it is important to note how I have arrived at a specific set of
               Marxist principles. I will not claim like Adorno or Althusser
@@ -139,7 +149,7 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <h3 class="text-center">The Distinction Between Principle & Practice</h3>
+            <h3 class="text-center" id = "e1-intro-2">The Distinction Between Principle & Practice</h3>
             <p "text-left">
               It is important to as a Marxist understand the dichotomy between
                principle and practice. i.e. between the shared ideas and

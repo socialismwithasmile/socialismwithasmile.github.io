@@ -3,7 +3,7 @@ body {
   line-height: 1.5rem;
 }
 blockquote {
-  background: #e6e8e6;
+  background: #F8F9FA;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -79,8 +79,34 @@ a:hover, a:visited, a:link, a:active
 .btn-primary {
   background-color: #ff0000;
   border: none;
+  font-family: 'Lato', sans-serif;
 }
 .btn-primary:hover {
   background-color: #CC0000;
   border: none;
+}
+.nav-link.active{
+  font-family: 'Lato', sans-serif;
+  background-color: #ff0000 !important;
+  border: none;
+}
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    color: #ff0000;
+}
+.nav-link:hover{
+  color: #CC0000;
+}
+.nav-link.active:hover{
+  background-color: #CC0000 !important;
+  border: none;
+}
+.essay_sidebar{
+  background-color: #F8F9FA !important;
+}
+li a{
+  color: #ff0000;
+}
+li a:hover{
+  color: #CC0000;
 }
